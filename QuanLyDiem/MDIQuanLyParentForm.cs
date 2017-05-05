@@ -112,5 +112,28 @@ namespace QuanLyDiem
             QuanLyGiaoVien formGiaoVien = new QuanLyGiaoVien();
             formGiaoVien.Show(this);
         }
+
+        private void quảnLýHọcSinhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            QuanLyHocSinh formQuanLyHocSinh = new QuanLyHocSinh();
+            formQuanLyHocSinh.Show(this);
+        }
+
+        private void tìmKiếmGiáoViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TimKiemGiaoVien formTimKiemGiaoVien = new TimKiemGiaoVien();
+            formTimKiemGiaoVien.Show(this);
+        }
+
+        private void tìmKiếmHọcSinhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TimKiemHocSinh formTimKiemHocSinh = new TimKiemHocSinh();
+            formTimKiemHocSinh.Show(this);
+        }
+
+        private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

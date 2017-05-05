@@ -15,6 +15,7 @@ namespace QuanLyDiem.Presentation
         public QuanLyHocSinh()
         {
             InitializeComponent();
+            this.txt_mahs.Select();
         }
     }
 }

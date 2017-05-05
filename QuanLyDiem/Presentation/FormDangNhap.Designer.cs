@@ -30,15 +30,19 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_tendangnhap = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.txt_tendangnhap = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
@@ -58,12 +62,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Đăng Nhập";
             // 
-            // txt_tendangnhap
+            // label3
             // 
-            this.txt_tendangnhap.Location = new System.Drawing.Point(176, 70);
-            this.txt_tendangnhap.Name = "txt_tendangnhap";
-            this.txt_tendangnhap.Size = new System.Drawing.Size(153, 20);
-            this.txt_tendangnhap.TabIndex = 0;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(86, 109);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Mật Khẩu";
             // 
             // label2
             // 
@@ -78,17 +84,34 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(176, 106);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(153, 20);
             this.textBox2.TabIndex = 0;
             // 
-            // label3
+            // txt_tendangnhap
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(86, 109);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Mật Khẩu";
+            this.txt_tendangnhap.Location = new System.Drawing.Point(176, 70);
+            this.txt_tendangnhap.Name = "txt_tendangnhap";
+            this.txt_tendangnhap.Size = new System.Drawing.Size(153, 20);
+            this.txt_tendangnhap.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(64, 173);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Đăng Nhập";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(218, 173);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Nhập Lại";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // FormDangNhap
             // 
@@ -112,5 +135,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox txt_tendangnhap;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
