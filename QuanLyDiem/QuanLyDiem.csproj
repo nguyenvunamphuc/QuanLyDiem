@@ -67,6 +67,9 @@
     <EmbeddedResource Include="MDIQuanLyParentForm.resx">
       <DependentUpon>MDIQuanLyParentForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\FormDangKi.resx">
+      <DependentUpon>FormDangKi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentation\FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </EmbeddedResource>
