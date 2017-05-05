@@ -1,24 +1,3 @@
-C:\Users\Admin\Documents\Visual Studio 2013\Projects\QuanLyDiem\QuanLyDiem\bin\Debug\QuanLyDiem.exe.config
 G:\C# Ubuntu\git\QuanLyDiem\bin\Debug\QuanLyDiem.exe.config
-G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.csprojResolveAssemblyReference.cache
-G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.MDIQuanLyParentForm.resources
-G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.FormDangNhap.resources
-G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.Properties.Resources.resources
-G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.csproj.GenerateResource.Cache
-G:\C# Ubuntu\git\QuanLyDiem\bin\Debug\QuanLyDiem.exe
-G:\C# Ubuntu\git\QuanLyDiem\bin\Debug\QuanLyDiem.pdb
 G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.exe
 G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.pdb
-D:\git\QuanLyDiem\bin\Debug\QuanLyDiem.exe.config
-D:\git\QuanLyDiem\obj\Debug\QuanLyDiem.csprojResolveAssemblyReference.cache
-D:\git\QuanLyDiem\bin\Debug\QuanLyDiem.exe
-D:\git\QuanLyDiem\bin\Debug\QuanLyDiem.pdb
-D:\git\QuanLyDiem\obj\Debug\QuanLyDiem.MDIQuanLyParentForm.resources
-D:\git\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.FormDangNhap.resources
-D:\git\QuanLyDiem\obj\Debug\QuanLyDiem.Properties.Resources.resources
-D:\git\QuanLyDiem\obj\Debug\QuanLyDiem.csproj.GenerateResource.Cache
-D:\git\QuanLyDiem\obj\Debug\QuanLyDiem.exe
-D:\git\QuanLyDiem\obj\Debug\QuanLyDiem.pdb
-D:\git\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.FormDangKi.resources
-G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.FormDangKi.resources
-G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.QuanLyGiaoVien.resources
