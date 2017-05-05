@@ -100,5 +100,17 @@ namespace QuanLyDiem
             FormDangNhap formDangNhap = new FormDangNhap();
             formDangNhap.Show(this);
         }
+
+        private void đăngKýToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDangKi formDangKi = new FormDangKi();
+            formDangKi.Show(this);
+        }
+
+        private void quảnLýGiáoViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            QuanLyGiaoVien formGiaoVien = new QuanLyGiaoVien();
+            formGiaoVien.Show(this);
+        }
     }
 }

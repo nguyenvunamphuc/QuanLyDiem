@@ -16,5 +16,25 @@ namespace QuanLyDiem.Presentation
         {
             InitializeComponent();
         }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormDangKi_Load(object sender, EventArgs e)
+        {
+                       this.Refresh();
+        }
     }
 }

@@ -62,13 +62,31 @@
     <Compile Include="Presentation\FormDangNhap.Designer.cs">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentation\QuanLyGiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\QuanLyGiaoVien.Designer.cs">
+      <DependentUpon>QuanLyGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\QuanLyHocSinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\QuanLyHocSinh.Designer.cs">
+      <DependentUpon>QuanLyHocSinh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MDIQuanLyParentForm.resx">
       <DependentUpon>MDIQuanLyParentForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\FormDangKi.resx">
+      <DependentUpon>FormDangKi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentation\FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\QuanLyGiaoVien.resx">
+      <DependentUpon>QuanLyGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
