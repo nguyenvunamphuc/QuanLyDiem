@@ -26,3 +26,20 @@ G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.Properties.Resources.resources
 G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.csproj.GenerateResource.Cache
 G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.TimKiemGiaoVien.resources
 G:\C# Ubuntu\git\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.TimKiemHocSinh.resources
+E:\project\QuanLyDiem\QuanLyDiem\bin\Debug\QuanLyDiem.exe.config
+E:\project\QuanLyDiem\QuanLyDiem\bin\Debug\QuanLyDiem.mdf
+E:\project\QuanLyDiem\QuanLyDiem\bin\Debug\QuanLyDiem_log.ldf
+E:\project\QuanLyDiem\QuanLyDiem\bin\Debug\QuanLyDiem.exe
+E:\project\QuanLyDiem\QuanLyDiem\bin\Debug\QuanLyDiem.pdb
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.csprojResolveAssemblyReference.cache
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.MDIQuanLyParentForm.resources
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.FormDangKi.resources
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.FormDangNhap.resources
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.QuanLyGiaoVien.resources
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.QuanLyHocSinh.resources
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.TimKiemGiaoVien.resources
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.Presentation.TimKiemHocSinh.resources
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.Properties.Resources.resources
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.csproj.GenerateResource.Cache
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.exe
+E:\project\QuanLyDiem\QuanLyDiem\obj\Debug\QuanLyDiem.pdb

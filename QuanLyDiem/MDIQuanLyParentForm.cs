@@ -135,5 +135,13 @@ namespace QuanLyDiem
         {
             Application.Exit();
         }
+
+        private void MDIQuanLyParentForm_Load(object sender, EventArgs e)
+        {
+            System.Data.SqlClient.SqlConnection con = new System.Data.SqlClient.SqlConnection();
+            con.ConnectionString = @"Data Source=(LocalDB)\v11.0; AttachDbFilename=|DataDirectory|\QuanLyDiem.mdf; Integrated Security=True; Connect Timeout=30;";
+            con.Open();
+            MessageBox.Show("Connection opened");
+        }
     }
 }

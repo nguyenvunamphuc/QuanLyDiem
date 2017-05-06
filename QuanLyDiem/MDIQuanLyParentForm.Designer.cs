@@ -40,12 +40,12 @@
             this.quảnLýGiáoViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýHọcSinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tìmKiếmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tìmKiếmHọcSinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tìmKiếmGiáoViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trợGiúpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.tìmKiếmHọcSinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tìmKiếmGiáoViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -104,7 +104,7 @@
             // thoátToolStripMenuItem
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.thoátToolStripMenuItem.Text = "Thoát";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
@@ -140,6 +140,20 @@
             this.tìmKiếmToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.tìmKiếmToolStripMenuItem.Text = "Tìm Kiếm";
             // 
+            // tìmKiếmHọcSinhToolStripMenuItem
+            // 
+            this.tìmKiếmHọcSinhToolStripMenuItem.Name = "tìmKiếmHọcSinhToolStripMenuItem";
+            this.tìmKiếmHọcSinhToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.tìmKiếmHọcSinhToolStripMenuItem.Text = "Tìm Kiếm Học Sinh";
+            this.tìmKiếmHọcSinhToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmHọcSinhToolStripMenuItem_Click);
+            // 
+            // tìmKiếmGiáoViênToolStripMenuItem
+            // 
+            this.tìmKiếmGiáoViênToolStripMenuItem.Name = "tìmKiếmGiáoViênToolStripMenuItem";
+            this.tìmKiếmGiáoViênToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.tìmKiếmGiáoViênToolStripMenuItem.Text = "Tìm Kiếm Giáo Viên";
+            this.tìmKiếmGiáoViênToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmGiáoViênToolStripMenuItem_Click);
+            // 
             // trợGiúpToolStripMenuItem
             // 
             this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
@@ -162,20 +176,6 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
             this.toolStripStatusLabel.Text = "Status";
             // 
-            // tìmKiếmHọcSinhToolStripMenuItem
-            // 
-            this.tìmKiếmHọcSinhToolStripMenuItem.Name = "tìmKiếmHọcSinhToolStripMenuItem";
-            this.tìmKiếmHọcSinhToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
-            this.tìmKiếmHọcSinhToolStripMenuItem.Text = "Tìm Kiếm Học Sinh";
-            this.tìmKiếmHọcSinhToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmHọcSinhToolStripMenuItem_Click);
-            // 
-            // tìmKiếmGiáoViênToolStripMenuItem
-            // 
-            this.tìmKiếmGiáoViênToolStripMenuItem.Name = "tìmKiếmGiáoViênToolStripMenuItem";
-            this.tìmKiếmGiáoViênToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
-            this.tìmKiếmGiáoViênToolStripMenuItem.Text = "Tìm Kiếm Giáo Viên";
-            this.tìmKiếmGiáoViênToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmGiáoViênToolStripMenuItem_Click);
-            // 
             // MDIQuanLyParentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,6 +187,7 @@
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MDIQuanLyParentForm";
             this.Text = "MDIQuanLyParentForm";
+            this.Load += new System.EventHandler(this.MDIQuanLyParentForm_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.statusStrip.ResumeLayout(false);
